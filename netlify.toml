@@ -1,0 +1,9 @@
+[build]
+  command = "npm run start"
+  publish = "/public"
+
+[dev]
+  command = "npm run start"
+  targetPort = 5000
+  port = 8080
+  publish = "/public"
